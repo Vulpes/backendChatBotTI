@@ -108,7 +108,7 @@ export default class ServicoDAO{
 
     }
 
-    async consulta(){
+    async consultar(){
 
         try{
             const sql = `SELECT * FROM servico ORDER BY nome`;
