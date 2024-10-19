@@ -9,6 +9,16 @@ export default class Servico{
     #tempoInicioAtendimento
     #tempoSolucao
 
+    constructor(id = 0, nome, descricao, valor=0, urlImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8lRbS7eKYzDq-Ftxc1p8G_TTw2unWBMEYUw&s", tempoInicioAtendimento=4, tempoSolucao=24){
+        this.#id = id;
+        this.#nome = nome;
+        this.#descricao = descricao;
+        this.#valor = valor;
+        this.#urlImagem = urlImage;
+        this.#tempoInicioAtendimento = tempoInicioAtendimento;
+        this.#tempoSolucao = tempoSolucao;
+    }
+
     get id(){
         return this.#id;
     }

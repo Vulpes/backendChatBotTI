@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Vulpes/backendChatBotTI/issues"
   },
-  "homepage": "https://github.com/Vulpes/backendChatBotTI#readme"
+  "homepage": "https://github.com/Vulpes/backendChatBotTI#readme",
+  "dependencies": {
+    "mysql2": "^3.11.3"
+  }
 }
