@@ -1,0 +1,21 @@
+{
+  "name": "backendchatbotti",
+  "version": "1.0.0",
+  "description": "Projeto backend webhook para agente do dialog flow",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vulpes/backendChatBotTI.git"
+  },
+  "author": "Fernanda Carolina Claudio Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vulpes/backendChatBotTI/issues"
+  },
+  "homepage": "https://github.com/Vulpes/backendChatBotTI#readme"
+}
