@@ -121,7 +121,7 @@ export default class ServicoCtrl{
             servico.consultar().then((listaServicos) => {
                 resposta.status(201).json({
                     "status": true,
-                    "servicos": listaServicos
+                    "servicos": listaServicos ?? "Nenhum serviço encontrado"
                 });
             }).catch((e) => {
                 resposta.status(500).json({
